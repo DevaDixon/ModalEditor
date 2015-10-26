@@ -14,6 +14,7 @@
 		5961B7421BDEE48A009D1E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961B7401BDEE48A009D1E78 /* LaunchScreen.storyboard */; };
 		5961B74D1BDEE48A009D1E78 /* ModalEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B74C1BDEE48A009D1E78 /* ModalEditorTests.swift */; };
 		5961B7581BDEE48A009D1E78 /* ModalEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B7571BDEE48A009D1E78 /* ModalEditorUITests.swift */; };
+		5961B7661BDEE53F009D1E78 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961B7651BDEE53F009D1E78 /* EditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5961B7531BDEE48A009D1E78 /* ModalEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5961B7571BDEE48A009D1E78 /* ModalEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalEditorUITests.swift; sourceTree = "<group>"; };
 		5961B7591BDEE48A009D1E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961B7651BDEE53F009D1E78 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		5961B7361BDEE48A009D1E78 /* ModalEditor */ = {
 			isa = PBXGroup;
 			children = (
+				5961B7651BDEE53F009D1E78 /* EditorViewController.swift */,
 				5961B7371BDEE48A009D1E78 /* AppDelegate.swift */,
 				5961B7391BDEE48A009D1E78 /* ViewController.swift */,
 				5961B73B1BDEE48A009D1E78 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5961B73A1BDEE48A009D1E78 /* ViewController.swift in Sources */,
+				5961B7661BDEE53F009D1E78 /* EditorViewController.swift in Sources */,
 				5961B7381BDEE48A009D1E78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

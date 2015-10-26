@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var emailLabel: UIView!
+    @IBAction func exitToHere(sender: UIStoryboardSegue) {
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
