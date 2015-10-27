@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var emailLabel: UIView!
+
+    @IBOutlet weak var emailLabel: UILabel!
     @IBAction func exitToHere(sender: UIStoryboardSegue) {
         
     }

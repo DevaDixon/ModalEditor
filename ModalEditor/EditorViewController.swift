@@ -13,16 +13,26 @@ class EditorViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     
     @IBAction func updateEditor(sender: AnyObject) {
+        
+        (presentingViewController as! ViewController).emailLabel.text = emailField.text 
     }
     
    
     @IBAction func hideKeyboard(sender: AnyObject) {
+        emailField.resignFirstResponder()
     }
     
+    override func viewWillAppear(animated: Bool) {
+        emailField.text = (presentingViewController as! ViewController).emailLabel.text
+        
+        super.viewWillAppear(animated)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        preferredContentSize = CGSizeMake(340,160)
     }
 
     override func didReceiveMemoryWarning() {
